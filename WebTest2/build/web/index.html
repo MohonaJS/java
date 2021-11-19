@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    </head>                                                                                         
+    <body>
+        <form action="addCustomer.jsp" method="post">
+            <label> Name::-- </label><input type="text" name="name"/><br> <br> 
+            <label> Email::-- </label><input type="email" name="email"/><br> <br> 
+            <label> Gender::-- </label>Male<input type="radio" name="gender" value="Male"/>
+            Female<input type="radio" name="gender" value="Female"/><br> <br> 
+            <label> Country::-- </label>
+             <select name="country">
+                <option name="">--SELECT--</option>
+                <option name="Sweden">Sweden</option>
+                <option name="Bangladesh">Bangladesh</option>
+                <option name="Norway">Norway</option>
+                <option name="Finland">Finland</option>
+                <option name="Denmark">Denmark</option>
+                
+            </select>
+            <br><br><br>
+            <label> Password::-- </label><input type="text" name="password"/> <br><br>
+            <input type="submit" value="Sign up">
+     
+        </form>
+        <input type="submit" value="View all"/>
+    </body>
+</html>
