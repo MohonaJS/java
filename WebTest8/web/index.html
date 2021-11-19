@@ -1,0 +1,66 @@
+
+<html>
+    <head>
+        <title>TODO supply a title</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        
+    </head>
+    <body>
+        <form action="addTeacher.jsp" method="post">
+            <table width="30%" bgcolor="aqua" border="2">
+                <tr id="name">
+                    <td>Name</td>
+                    <td>:</td>
+                    <td><input type="text" name="name" placeholder="Type your name"></td>
+                </tr> 
+                
+                <tr>
+                    <td>Email</td>
+                    <td>:</td>
+                    <td><input type="email" name="email" placeholder="Type your email"></td>
+                </tr> 
+                
+                <tr>
+                    <td>password</td>
+                    <td>:</td>
+                    <td><input type="password" name="password" placeholder="enter your password"></td>
+                </tr> 
+                <tr> 
+                    <td>Gender</td>
+                     <td>:</td>
+                      <td>
+                          Male <input type="radio" name="gender" value="male">
+                          Female <input type="radio" name="gender" value="female">
+                          Other <input type="radio" name="gender" value="other">
+                      </td>
+                </tr>
+                <tr>
+                    <td>Subject</td>
+                    <td>:</td>
+                    <td>
+                        <select name="subject">
+                            <option>Select</option>
+                            <option>Swedish</option>
+                            <option>English</option>
+                            <option>Bangla</option>
+                            <option>Math</option>
+
+
+                        </select>
+                </td>
+                </tr>
+                <tr>
+                    <td>
+                <input type="submit" value="Sign up">
+                </td>   
+                </tr>
+            </table>
+        </form>
+        
+        <a href="viewAll.jsp">
+            
+            <button> View All Data </button></a>
+        
+    </body>
+</html>
